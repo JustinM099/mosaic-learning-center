@@ -1,3 +1,11 @@
+@font-face {
+    font-family: Gila;
+    src: url(fonts/Gila.woff2) format("woff2"),
+         url(fonts/Gila.woff) format("woff"),
+         url(fonts/Gila.eot) format("opentype");
+  }
+
+
 * {
     padding: 0;
     margin: 0;
@@ -10,6 +18,9 @@ body {
 
 }
 
+section {
+    
+}
 
 li {
     display: inline;
@@ -21,8 +32,9 @@ li {
     height: 50px;
 }
 
+
 .navbar {
-    background-color:#22706B;
+    background-color:#99CECA;
     text-align: right;
     flex-wrap: wrap;
     float: right;
@@ -40,11 +52,48 @@ li {
 header {
     padding: 2%;
     margin: 2%;
+    padding-top: 6%;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Gila, sans-serif;
 }
 
 /* about section */
 
-.sectionStyle1 {
+.section-style-1 {
+    align-content: flex-start;
     background-color: #E08356;
+    justify-content: space-between;
+    padding: 3%;
 }
 
+.section-style-2 {
+    display: flex;
+    align-content: flex-start;
+    background-color:#22706B;
+    justify-content: space-between;
+    padding: 3%;
+}
+
+.section-style-3 {
+    background-color: #22706B;
+    padding: 3%;
+}
+
+/* profile section */
+
+.profile-image {
+    
+    float: right; 
+    max-width: 14%;
+    overflow:hidden;
+}
+
+/* footer */
+
+footer {
+    background-color: #99CECA;
+    padding-top: 1%;
+    text-align: center;
+}
