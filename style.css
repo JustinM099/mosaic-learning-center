@@ -18,10 +18,6 @@ body {
 
 }
 
-section {
-    
-}
-
 li {
     display: inline;
 
@@ -46,26 +42,28 @@ li {
 
 /* header */
 .header-image {
-    max-width: 100%;
+    width: 100%;
 }
 
 header {
+    margin: 2%;    
     padding: 2%;
-    margin: 2%;
     padding-top: 6%;
+    width: 100%;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: Gila, sans-serif;
 }
 
-/* about section */
+/* section styling */
 
 .section-style-1 {
     align-content: flex-start;
     background-color: #E08356;
     justify-content: space-between;
     padding: 3%;
+    width: 100%;
 }
 
 .section-style-2 {
@@ -74,11 +72,13 @@ h1, h2, h3, h4, h5 {
     background-color:#22706B;
     justify-content: space-between;
     padding: 3%;
+    width: 100%;
 }
 
 .section-style-3 {
     background-color: #22706B;
     padding: 3%;
+    width: 100%;
 }
 
 /* profile section */
